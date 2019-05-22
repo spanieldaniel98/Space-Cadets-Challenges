@@ -6,7 +6,10 @@ public class Main {
 		//i.getNameFromID();
 		//i.getRelatedPeopleFromID();
 		
-		HomePageGetter h = new HomePageGetter();
-		h.getHomePageURL();
+		//HomePageGetter h = new HomePageGetter();
+		//h.getHomePageURL();
+		
+		AnagramGetter a = new AnagramGetter();
+		a.getAnagrams();
 	}
 }
