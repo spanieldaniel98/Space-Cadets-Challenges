@@ -25,7 +25,7 @@ public class AnagramGetter {
 		System.out.print("Enter a name: ");
 		name = scanner.nextLine();
 		
-		// Instantiates search query URL and buffered reader
+		// Instantiates search query URL and BufferedReader
 		queryName = name.replaceAll(" ", "+");
 		queryURL = new URL("https://new.wordsmith.org/anagram/anagram.cgi?anagram=" + queryName + "&t=500&a=n");
 		reader = new BufferedReader(new InputStreamReader(queryURL.openStream()));

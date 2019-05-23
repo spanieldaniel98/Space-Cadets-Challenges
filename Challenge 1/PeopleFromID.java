@@ -26,7 +26,7 @@ public class PeopleFromID {
 	}
 	
 	public void makeReader() throws Exception {
-		// Instantiate buffered reader from URL
+		// Instantiate BufferedReader from URL
 		reader = new BufferedReader(new InputStreamReader(userURL.openStream()));
 	}
 	

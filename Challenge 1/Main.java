@@ -9,7 +9,10 @@ public class Main {
 		//HomePageGetter h = new HomePageGetter();
 		//h.getHomePageURL();
 		
-		AnagramGetter a = new AnagramGetter();
-		a.getAnagrams();
+		//AnagramGetter a = new AnagramGetter();
+		//a.getAnagrams();
+		
+		EnglishToFrenchTranslator t = new EnglishToFrenchTranslator();
+		t.translate();
 	}
 }
